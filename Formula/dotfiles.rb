@@ -8,8 +8,4 @@ class Dotfiles < Formula
     #bin.install "foo"
     system "./install.sh"
   end
-
-  test do
-    #foo help
-  end
 end
