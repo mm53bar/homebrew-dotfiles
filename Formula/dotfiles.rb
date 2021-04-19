@@ -5,7 +5,7 @@ class Dotfiles < Formula
 
   def install
     #mv Dir.glob("foo-*").first, "foo"
-    #bin.install "foo"
-    system "./install.sh"
+    bin.install "install.sh"
+    #system "./install.sh"
   end
 end
